@@ -1,0 +1,63 @@
+/* Variables */
+
+// Fuentes
+@principal: 'Outfit', sans-serif;
+
+// Colors
+@White: hsl(0, 0%, 100%);
+@Light-gray: hsl(212, 45%, 89%);
+@Grayish-blue: hsl(220, 15%, 55%); 
+@Dark-blue: hsl(218, 44%, 22%);
+
+// Font-weight
+@light: 400;
+@bold: 700;
+
+/* Generales*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: @Grayish-blue;
+    margin: 0 auto;
+    text-align: center;
+    font-family: @principal;
+    font-size: 15px;
+    max-width: 350px;
+}
+
+main{
+    width: 90%;
+    background-color: @White;
+    border-radius: 5%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+img{
+    border-radius: 3%;
+    margin: 1.3rem 0;
+    width: 90%;
+}
+
+h1{
+    color: @Dark-blue;
+    width: 90%;
+    margin:auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p{
+    color: @Light-gray;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1.2rem auto;
+    padding-bottom: 1.4rem;
+    width: 80%;
+}

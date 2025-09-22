@@ -1,0 +1,52 @@
+/* Variables */
+/* Generales*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: auto;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  max-width: 350px;
+  /* Aqui se centra verticalmente y horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 90%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  border-radius: 3%;
+  margin: 1.3rem 0;
+  width: 90%;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  width: 90%;
+  margin: auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1.2rem auto;
+  padding-bottom: 1.4rem;
+  width: 80%;
+}
